@@ -294,7 +294,7 @@ font-family: 'Roboto';
 
 
 
-.page-nav-button .button {
+.page-nav-button .button-filter:hover {
     background-color: var(--background-light-color);
     color: var(--primary-text-color) ;
 
@@ -307,8 +307,8 @@ font-family: 'Roboto';
         text-align: center;
         letter-spacing: 0.03em;
 }
-.page-nav-button .button:focus,
-.page-nav-button .button:hover {
+.page-nav-button .button-filter:focus,
+.page-nav-button .button-filter:hover {
     background-color: var(--accent-color);
     color: var(--full-white-color);
 } 
