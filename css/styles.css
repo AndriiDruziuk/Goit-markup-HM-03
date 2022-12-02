@@ -16,6 +16,15 @@
 
 /* Білий колір тексту #FFFFFF */
 
+html {
+    box-sizing: border-box;
+}
+*,
+*::before, 
+*::after {
+ box-sizing: inherit;
+}
+
 :root {
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
@@ -27,7 +36,6 @@
     --full-bleck-color: #000000;
     --full-white-color:#FFFFFF;
 }
-
 .body {
     background-color:var(--white-first-background-color) ;
     color: var(--secondary-text-color) ;
@@ -37,6 +45,20 @@
     letter-spacing: 0.03em ;
     
 }
+
+
+/* CONTAINER */
+
+.container {
+    margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+}
+
+
+
 
 /* оформлення лого */
 
@@ -109,6 +131,8 @@ font-family: 'Raleway';
 /* касування крапок при лішках */
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* site-nav */
@@ -169,6 +193,8 @@ font-family: 'Raleway';
         text-transform: uppercase;
 }
 .hero .title {
+    margin-top: 0;
+    margin-bottom: 30px;
     color: var(--full-white-color);
 
     font-family: 'Roboto';
@@ -183,20 +209,28 @@ font-family: 'Raleway';
         text-transform: uppercase;
 }
 /* button */
-.hero .button-order {
-    background-color: var(--accent-color);
-    color: var(--full-white-color);
-        
-    font-family: 'Roboto' inherit;
+
+.button-order {
+     display: inline-block;
+     border-radius: 4px;
+     padding: 10px 24px;
+     min-width: 200px;
+     align-items: center;
+     text-align: center;
+     letter-spacing: 0.06em;
+
+     background-color: var(--accent-color);
+     color: var(--full-white-color);
+     font-family: 'Roboto' inherit;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
         /* identical to box height, or 188% */
+
+            
+            
     
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em
+      
 }
 
 
@@ -205,12 +239,20 @@ font-family: 'Raleway';
 
 .section {
 background-color: var(--white-first-background-color);
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+.section.features {
+    padding-bottom: 0;
 }
 
 .section-title {
-    color:var(--primary-text-color);
+        margin-top: 0;
+        margin-bottom: 50px;
 
-    font-family: 'Roboto';
+        color:var(--primary-text-color);
+        font-family: 'Roboto';
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
@@ -221,9 +263,11 @@ background-color: var(--white-first-background-color);
 
   /* Features and Job  */
 .feature-list .title {
-    color:var(--primary-text-color) ;
+    margin-top: 0;  
+    margin-bottom: 10px;
     
-    font-family: 'Roboto';
+    color:var(--primary-text-color) ;
+      font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -232,8 +276,16 @@ background-color: var(--white-first-background-color);
     
        
         letter-spacing: 0.03em;
+    }
 
-}
+    .feature-list p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .feature-list img {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
 /* color to 3section */
 .team {
     background-color: var(--background-light-color);
@@ -245,6 +297,8 @@ background-color: var(--white-first-background-color);
 
 .footer {
     background-color: var(--background-dark-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .link-primary {
@@ -288,9 +342,27 @@ font-family: 'Roboto';
 
 /* оформлення Портфоліо */
 
+.page-nav-button{
+margin-top: 0;
+margin-bottom: 34px;
+}
+
+.portfolio-list {
+margin-top: 0;
+margin-bottom: 0;
+}
+
+
+.page-nav-button.container,
+.portfolio-list.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /* buttons */
-
-
 
 
 
@@ -319,7 +391,11 @@ font-family: 'Roboto';
 }
 
 
+
 .portfolio-list .title {
+     margin-top: 0;
+     margin-bottom: 4px;
+
     color: var(--primary-text-color);
     text-decoration: none;
 
@@ -334,6 +410,9 @@ font-family: 'Roboto';
 
 /* колір для абзаців */
 .portfolio-list .portfolio-pharagraf {
+   
+
+
     color: var(--secondary-text-color);
     text-decoration: none;
 
