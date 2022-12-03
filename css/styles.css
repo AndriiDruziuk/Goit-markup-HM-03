@@ -50,7 +50,8 @@ html {
 /* CONTAINER */
 
 .container {
-    margin-left: auto;
+        display: flex;
+        margin-left: auto;
         margin-right: auto;
         width: 1200px;
         padding-left: 15px;
@@ -64,9 +65,11 @@ html {
 
 
 .logo {
-    color:var(--accent-color) ;
-       text-decoration: none;
-    font-family: 'Raleway';
+     
+
+     color:var(--accent-color) ;
+     text-decoration: none;
+     font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
@@ -135,8 +138,31 @@ font-family: 'Raleway';
     margin: 0;
 }
 
+/* header/ */
+
+.nav-container {
+display: flex;
+align-items: center;
+}
+
 /* site-nav */
+
+.site-nav {
+    display: flex;
+    margin-left: 92px;
+}
+
+
+.site-nav .item + .item {
+    margin-left: 40px;
+}
+
+
 .site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
     color: var(--primary-text-color);
     text-decoration: none;
        
@@ -159,6 +185,19 @@ font-family: 'Raleway';
 
 
 /* auth-nav */
+.auth-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+   
+}
+
+.auth-nav .item + .item {
+    margin-left: 40px;
+}
+   
+
+
 .auth-nav .link {
     color: var(--secondary-text-color);
     text-decoration: none;
@@ -262,6 +301,10 @@ padding-bottom: 94px;
 
 
   /* Features and Job  */
+.feature-list {
+    display: flex;
+}
+
 .feature-list .title {
     margin-top: 0;  
     margin-bottom: 10px;
