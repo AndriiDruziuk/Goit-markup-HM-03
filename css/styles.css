@@ -237,6 +237,8 @@ align-items: center;
 .hero .title {
     margin-top: 0;
     margin-bottom: 30px;
+text-align: center;
+
     color: var(--full-white-color);
 
     font-family: 'Roboto';
@@ -285,6 +287,15 @@ padding-top: 94px;
 padding-bottom: 94px;
 }
 
+
+/* секція чим займаємося */
+.img-proces{
+    display: flex;
+}
+.img-proces .item + .item {
+    margin-left: 30px;
+}
+
 .section.features {
     padding-bottom: 0;
 }
@@ -307,6 +318,12 @@ padding-bottom: 94px;
 .feature-list {
     display: flex;
 }
+
+.feature-list .item + .item {
+    margin-left: 30px;
+} 
+
+
 
 .feature-list .title {
     margin-top: 0;  
