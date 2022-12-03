@@ -50,7 +50,6 @@ html {
 /* CONTAINER */
 
 .container {
-        display: flex;
         margin-left: auto;
         margin-right: auto;
         width: 1200px;
@@ -139,6 +138,9 @@ font-family: 'Raleway';
 }
 
 /* header/ */
+.header-container {
+    display: flex;
+}
 
 .nav-container {
 display: flex;
@@ -199,6 +201,7 @@ align-items: center;
 
 
 .auth-nav .link {
+
     color: var(--secondary-text-color);
     text-decoration: none;
     font-family: 'Roboto';
