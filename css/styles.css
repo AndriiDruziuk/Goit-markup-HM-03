@@ -37,7 +37,7 @@ html {
     --full-white-color:#FFFFFF;
 }
 .body {
-    background-color:var(--white-first-background-color) ;
+    /* background-color:var(--white-first-background-color) ; */
     color: var(--secondary-text-color) ;
     
     
@@ -426,8 +426,8 @@ margin-bottom: 0;
 }
 
 
-.page-nav-button.container,
-.portfolio-list.container {
+.page-nav-button,
+.portfolio-list {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
@@ -439,7 +439,7 @@ margin-bottom: 0;
 
 
 
-.page-nav-button .button-filter:hover {
+.page-nav-button .button-filter {
     background-color: var(--background-light-color);
     color: var(--primary-text-color) ;
 
@@ -447,15 +447,27 @@ margin-bottom: 0;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.63;
-        /* identical to box height, or 162% */
-    
+       
+        
         text-align: center;
         letter-spacing: 0.03em;
+        border-radius: 4px;
+       
 }
 .page-nav-button .button-filter:focus,
 .page-nav-button .button-filter:hover {
     background-color: var(--accent-color);
     color: var(--full-white-color);
+    font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+    
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+        border-radius: 4px;
+
 } 
 
 /* список прикладів робіт */
