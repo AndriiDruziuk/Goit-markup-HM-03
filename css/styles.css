@@ -224,6 +224,8 @@ align-items: center;
 /* секція героя */
 
 .hero {
+     padding-top: 200px;
+     padding-bottom: 200px;
     background-color:var(--background-dark-color) ;
         
     font-family: 'Roboto';
@@ -267,7 +269,7 @@ text-align: center;
 
      background-color: var(--accent-color);
      color: var(--full-white-color);
-     font-family: 'Roboto' inherit;
+     font-family: 'Roboto' , inherit;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -441,10 +443,10 @@ margin-bottom: 0;
     background-color: var(--background-light-color);
     color: var(--primary-text-color) ;
 
-    font-family: 'Roboto' inherit;
+    font-family: 'Roboto' , inherit;
         font-weight: 500;
         font-size: 16px;
-        line-height: 1,63;
+        line-height: 1.63;
         /* identical to box height, or 162% */
     
         text-align: center;
@@ -521,7 +523,7 @@ margin-left: 8px;
 
 
 .card-content {
-     background: #FFFFFF;
+     background-color: var(--full-white-color);
      border: 1px solid #EEEEEE;
      padding-top: 20px;
      padding-left: 24px;
