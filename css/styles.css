@@ -269,7 +269,7 @@ text-align: center;
 
      background-color: var(--accent-color);
      color: var(--full-white-color);
-     font-family: 'Roboto' , inherit;
+     font-family: inherit;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -443,7 +443,7 @@ margin-bottom: 0;
     background-color: var(--background-light-color);
     color: var(--primary-text-color) ;
 
-    font-family: 'Roboto' , inherit;
+    font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.63;
