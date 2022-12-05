@@ -228,7 +228,6 @@ align-items: center;
      padding-bottom: 200px;
     background-color:var(--background-dark-color) ;
         
-    font-family: 'Roboto';
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -239,14 +238,14 @@ align-items: center;
         text-transform: uppercase;
 }
 .hero .title {
-    margin-top: 0;
-    margin-bottom: 30px;
-text-align: center;
+    /* margin-top: 0;
+    margin-bottom: 30px; */
+     margin: 0 auto 30px;
+     text-align: center;
 
     color: var(--full-white-color);
-
-    font-family: 'Roboto';
-        font-style: normal;
+        mar
+        max-width: 696px ;
         font-weight: 900;
         font-size: 44px;
         line-height: 60px;
