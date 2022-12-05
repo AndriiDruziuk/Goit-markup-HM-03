@@ -170,7 +170,7 @@ align-items: center;
     color: var(--primary-text-color);
     text-decoration: none;
        
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
         font-weight: 500;
         font-size: 14px;
         line-height: 1.2;
@@ -206,7 +206,7 @@ align-items: center;
 
     color: var(--secondary-text-color);
     text-decoration: none;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
         font-weight: 500;
         font-size: 14px;
         line-height: 1.2;
@@ -308,7 +308,7 @@ padding-bottom: 94px;
         margin-bottom: 50px;
 
         color:var(--primary-text-color);
-        font-family: 'Roboto';
+        /* font-family: 'Roboto'; */
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
@@ -333,8 +333,8 @@ padding-bottom: 94px;
     margin-bottom: 10px;
     
     color:var(--primary-text-color) ;
-      font-family: 'Roboto';
-        font-style: normal;
+      /* font-family: 'Roboto';
+        font-style: normal; */
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
